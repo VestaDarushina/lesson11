@@ -1,0 +1,14 @@
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class DiscountCalculator {
+
+    public int sumAfterDiscount(int sum) {
+        if (sum < 1000) {
+            return sum;
+        } else {
+            return (int) (sum * 0.98);
+        }
+    }
+}
+
